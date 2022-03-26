@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: map-get($grid, columns);
+    grid-template-rows: map-get($grid, rows);
+}
+// // .grid-div {
+// //     @extend %grid;
+// // }
+// .grid-div {
+//     margin-left: nth($size, 4);
+//     margin-right: nth($size, 4);
+// }
+.div2 {
+    @extend %grid-2;
+}
+.grid-container-two {
+    display: grid;
+    grid-template-columns: map-get($grid, colums-rows);
+    grid-template-rows: map-get($grid, colums-rows); 
+    text-align: center;
+
+} 
+.grid-div-two {
+    @extend %div-inicio;
+    grid-column-start: map-get($grid, start);
+    grid-column-end: map-get($grid, end);
+}
+.grid-container-three {
+    display: grid;
+    grid-template-columns: map-get($grid, colums-rows);
+    text-align: center;
+}
+.grid-container-four {
+    display: grid;
+    grid-template-columns: map-get($grid, colums-2);
+    text-align: center;
+
+    margin: nth($size, 3);
+    padding: nth($size, 6);
+}
+
+
+

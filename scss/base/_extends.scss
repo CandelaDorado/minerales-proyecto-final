@@ -1,0 +1,44 @@
+%img {
+
+    justify-content: center;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 55px 0px 60px 95px;
+    padding: 40px 10px 20px 10px;
+}
+
+%div-inicio {
+    text-align: center;
+    margin: 70px 0px 70px 0px;
+    padding: 55px 20px 55px 20px;
+} 
+
+%grid-2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+%line {
+    border-top: 1px solid rgb(156, 156, 156);
+    height: 2px;  
+    padding: 0;
+    margin: 20px auto 0 auto; 
+}
+
+%li-oro {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;   
+    margin-bottom: 10px;
+    text-align: start;
+    border: 2px solid ;
+}
+%oro {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center; 
+    padding: 5px 0px ;
+    margin: 5px 0px; 
+}

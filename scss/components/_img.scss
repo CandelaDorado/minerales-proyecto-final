@@ -1,0 +1,16 @@
+.img-2 {
+    margin-top: $marginTop;
+    width: nth($size, 8);
+    height: $height;
+    border-radius: 10px;
+    
+    @extend %img
+}
+
+.img-1, .img-3 {
+    margin-top: $marginTop;
+    width: nth($size, 8);
+    height: $height;
+    
+    @extend %img
+}

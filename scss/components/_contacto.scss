@@ -1,0 +1,30 @@
+.h2-cont {
+    text-align: center;
+    margin: 50px auto 25px auto;
+    padding: nth($size, 9);
+    font-size: nth($size, 11);
+}
+
+.p-contacto {
+    text-align: center;
+    margin: nth($size, 2);
+}
+
+.line {
+    @extend %line;
+    max-width: nth($size, 7);
+}
+.line-two {
+    @extend %line;
+    max-width: nth($size, 13);
+}
+
+
+.input {
+    position: relative;
+    justify-content: center;
+}
+
+.contacto-form {
+    margin: 50px 400px 50px 400px;
+}

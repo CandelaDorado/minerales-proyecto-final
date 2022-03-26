@@ -1,0 +1,28 @@
+.bg-color {
+    background: $primaryBtn;
+}
+
+.bg-color-nav {
+    background: $primaryBtn;
+}
+
+.nav-text {
+    background: $nav-text;
+}
+
+.navbar-nav.navbar-left {
+    @include nav(absolute, 85%, translatex(-50%))
+}
+
+.li-styles {
+    @include nav2(11px 0px, none)
+} 
+
+.cont{
+//  min-width: 1420px;
+//      max-width: 1420px;
+     justify-content: center;
+     padding-left: 500px;
+     padding-right: 500px;
+}
+

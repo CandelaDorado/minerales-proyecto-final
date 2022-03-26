@@ -1,0 +1,9 @@
+@mixin nav($position, $left, $transform) {
+    position: $position;
+    left: $left;
+    transform: $transform;
+}
+@mixin nav2($padding, $list) {
+    padding: $padding;
+    list-style-type: $list;
+} 
