@@ -1,11 +1,26 @@
-.coleccion {
-    margin-left: nth($size, 3);
-    margin-right: nth($size, 3);
+.minerales-img {
+    margin: $marginThree;
 }
 
 .coleccion {
-    text-align: center; 
-    padding: 55px 0px ;
-    margin: 50px 0px; 
+    text-align: map-get($pages, align); 
+    padding: nth($size, 14);
+    margin: nth($size, 14); 
 }
 
+.coleccion-minerales {
+    width: nth($size, 31);
+    height: nth($size, 32);
+}
+.coleccion-left {
+    margin: $marginOne;
+    text-align: map-get($pages, align);
+}
+
+.title-coleccion {
+    
+    margin: $marginTwo;
+}
+.p-coleccion {
+    text-align: map-get($pages, align);
+}

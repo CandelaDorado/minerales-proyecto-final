@@ -1,6 +1,6 @@
 .h2-cont {
-    text-align: center;
-    margin: 50px auto 25px auto;
+    text-align: map-get($pages, align);
+    margin: map-get($pages, margin-left);
     padding: nth($size, 9);
     font-size: nth($size, 11);
 }
@@ -21,10 +21,13 @@
 
 
 .input {
-    position: relative;
-    justify-content: center;
+    position: map-get($pages, position)
 }
 
 .contacto-form {
-    margin: 50px 400px 50px 400px;
+    margin: map-get($pages, margin-bottom);
+}
+
+.contact {
+    margin: map-get($pages, margin);
 }

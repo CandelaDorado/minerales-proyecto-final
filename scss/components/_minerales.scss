@@ -1,8 +1,123 @@
 .title {
-    display: grid;
-    
+    text-align: map-get($minerales, text);
+    padding: nth($size, 2);
+}
+.title-li {
+    font-style: map-get($minerales, font);
+    margin: nth($size, 18);
+}
+.title-down {
+    font-style: map-get($minerales, font);
+}
+.title-down-up {
+    text-align: map-get($minerales, align);
+    margin: map-get($minerales, margin);
+    padding-right: nth($size, 19);
+}
+.title-down-cuarzo {
+    text-align: map-get($minerales, align);
+    margin: map-get($minerales, margin);
+    padding-right: nth($size, 3);
 }
 
+
 .p-mineral {
-    margin-top: nth($size, 17);
+    margin-top: nth($size, 14);
+    text-align: map-get($minerales, text);
  }
+
+.div-mineral {
+    padding: nth($size, 9);
+}
+.div-down {
+    padding: nth($size, 15);
+}
+
+.line-3 {
+    @extend %line;
+    max-width: map-get($minerales, width);
+}
+.line-li {
+    @extend %line-li;
+    max-width: map-get($minerales, width);
+}
+
+.border {
+    border: map-get($minerales, border) ;
+}
+
+.li-mineral {
+    @extend %li-oro;
+}
+
+.text-border {
+    border: map-get($minerales, border-top) ;
+}
+.text-center-top {
+    text-align: map-get($minerales, text);
+    padding: nth($size, 14);
+    margin-bottom: nth($size, 20);
+}
+.text-center {
+    text-align: map-get($minerales, text);
+    padding: nth($size, 14);
+}
+.text-middle {
+    text-align: map-get($minerales, text);
+    padding: nth($size, 15);
+}
+.text-down {
+    text-align: map-get($minerales, text);
+}
+.text-down-middle {
+    text-align: map-get($minerales, text);
+    margin-top: nth($size, 15);
+}
+
+.img-center-cuarzo {
+    width: nth($size, 6);
+    height: nth($size, 23);
+}
+.img-center-agata {
+    width: nth($size, 21);
+    height: nth($size, 22);
+    padding: nth($size, 11);
+}
+.img-mineral {
+    margin: map-get($minerales, margin-top);
+}
+
+
+.img-center {
+    margin-top: nth($size, 9);
+    width: nth($size, 21);
+    height: nth($size, 24);
+}
+.img-left {
+    padding: nth($size, 14);
+}
+.img-middle, .displ-n {
+    padding: nth($size, 15);
+    width: nth($size, 25);
+    height: nth($size, 6);
+}
+// .displ-n {
+//     padding: nth($size, 15);
+//     width: nth($size, 25);
+//     height: nth($size, 6);
+// }
+.img-down {
+    margin-top: nth($size, 14);
+    width: nth($size, 26);
+    height: nth($size, 27);
+}
+.img-down-two {
+    margin-top: nth($size, 28);
+    width: nth($size, 21);
+    height: nth($size, 6);
+}
+.img-down-three {
+    width: nth($size, 29);
+    height: nth($size, 30);
+    margin: nth($size, 28);
+}

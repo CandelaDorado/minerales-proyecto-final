@@ -7,3 +7,27 @@ $grid: (
     end: 4,
     text: center,
 ); 
+
+$minerales: (
+    text: center,
+    align: right,
+    margin: 0px 0px 10px 0px,
+    font: italic,
+    width: auto,
+    border: 2px solid,
+    border-top: 1px solid,
+    margin-top: 15px 0px 0px 58px,
+);
+
+$pages: (
+    margin: 50px 500px 100px 500px,
+    margin-bottom: 50px 400px 50px 400px
+    position: relative,
+    align: center,
+    margin-left: 50px auto 25px auto,
+);
+
+
+
+// map-get: ($, )
+// map-merge(map1, map2):
